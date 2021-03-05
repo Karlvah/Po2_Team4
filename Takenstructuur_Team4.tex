@@ -1,0 +1,124 @@
+\documentclass[12pt]{article}
+
+% style
+\setlength{\parindent}{0pt}
+\usepackage[left=2.5cm,top=2cm,right=2.5cm,bottom=2cm,a4paper]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{Team 4: TeamR2D2}
+\rhead{Takenstructuur}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% table
+\usepackage{etoolbox}
+\usepackage{booktabs}
+\usepackage{xstring}
+\usepackage{xcolor,colortbl}
+\definecolor{gray1}{gray}{0.7}
+\definecolor{gray2}{gray}{0.85}
+\definecolor{gray3}{gray}{0.95}
+
+% counting system		
+\newcounter{counter}
+\newcounter{subcounter}
+\newcounter{subsubcounter}
+\newcommand{\teller}{
+	\stepcounter{counter}
+	\setcounter{subcounter}{0}
+	\setcounter{subsubcounter}{0}
+	\thecounter}
+\newcommand{\subteller}{
+	\stepcounter{subcounter}
+	\setcounter{subsubcounter}{0}
+	\thecounter.\thesubcounter}
+\newcommand{\subsubteller}{
+	\stepcounter{subsubcounter}
+	\thecounter.\thesubcounter.\thesubsubcounter}
+
+% row	
+\newcommand{\row}[3]{
+	\IfEqCase{#1}{
+		{1}{\teller & #2 & \IfEqCase{#3}{{0}{niet OK}{1}{OK}} \\}
+		{2}{\subteller & #2 & \IfEqCase{#3}{{0}{niet OK}{1}{OK}} \\}
+		{3}{\subsubteller & #2 & \IfEqCase{#3}{{0}{niet OK}{1}{OK}} \\}
+	}[PackageError{row}{Undefined option to row: #1}]}
+
+
+
+\begin{document}	
+	
+	\begin{table}
+		\centering
+		%\caption{Takenstructuur}
+		
+		Tabel 1: Takenstructuur
+		
+		% \vspace{\baselineskip}
+		\begin{tabular}{p{1cm}p{12cm}c}
+			
+			
+			\toprule
+			Code & Taak & Status \\ 
+			
+			\midrule
+			\row{1}{Inwerken}{1}
+			\row{2}{Documenten op Toledo lezen}{1}
+			
+			\row{2}{Ontwerpen en plannen}{1}
+			\row{3}{Materiaallijst maken}{1}
+			\row{3}{Teamkalender maken}{1}
+			\row{3}{Klantenvereisten opstellen}{1}
+			\row{3}{Overzicht ontwerpspecificaties}{1}
+			\row{3}{Takenstructuur}{1}
+			\row{3}{Gantt-grafiek}{1}
+					
+			\midrule
+			\row{1}{Ontwerpen met behulp van de computer}{0}
+			\row{2}{3D modellen	(Solid parts)}{0}
+			\row{3}{Wiel}{0}
+			\row{3}{Motor}{0}
+			\row{3}{Kleursensor}{0}
+			\row{3}{Afstandssensor}{0}
+			\row{2}{Assemblage (Assembly)}{0}
+
+			\row{2}{Technische tekeningen (Drawing)}{0}
+					
+			\row{2}{Stuklijst}{0}
+			
+			\midrule
+			\row{1}{Software}{0}
+			\row{2}{Sturen/snelheid regelen}{0}
+			\row{2}{Lijnvolgalgoritme}{0}
+			\row{2}{Verkeerslichtinterpretatie}{0}
+			\row{2}{Voorliggerdetectie}{0}
+			\row{2}{Stoppen}{0}
+			\row{2}{Vertragen}{0}
+			\row{2}{Handmatig besturen}{0}
+			\row{2}{Testen}{0}
+			
+			
+			\midrule		
+			\row{1}{Rapportering}{0}
+			\row{2}{Tussentijds verslag}{0}
+		
+			\row{3}{Nalezen}{0}
+			\row{2}{Tussentijdse presentatie}{0}
+			\row{3}{Structuur}{0}
+			\row{3}{Presentatie maken}{0}
+			\row{3}{Nalezen}{0}
+			\row{3}{Inoefenen}{0}
+			\row{2}{Eindverslag}{0}
+			\row{3}{Structuur}{0}			
+			\row{3}{Nalezen}{0}
+			\row{2}{Eindpresentatie}{0}
+			\row{3}{Structuur}{0}
+			\row{3}{Presentatie maken}{0}
+			\row{3}{Nalezen}{0}
+			\row{3}{Inoefenen}{0}
+			\bottomrule
+		\end{tabular}
+	\end{table}
+
+
+
+\end{document}
