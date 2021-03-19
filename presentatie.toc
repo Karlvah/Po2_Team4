@@ -1,0 +1,5 @@
+\babel@toc {dutch}{}
+\beamer@sectionintoc {1}{Inleiding}{3}{0}{1}
+\beamer@sectionintoc {2}{Probleem}{5}{0}{2}
+\beamer@sectionintoc {3}{Oplossing}{7}{0}{3}
+\beamer@sectionintoc {4}{Conclusie}{9}{0}{4}
