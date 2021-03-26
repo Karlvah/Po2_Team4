@@ -1,0 +1,30 @@
+\babel@toc {dutch}{}
+\contentsline {chapter}{\numberline {1}Methodologie}{6}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Planning}{6}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Ontwerp}{7}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Onderdelen}{7}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Assemblage}{8}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Implementatie}{8}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Implementatie software}{8}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Algoritmen}{8}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Lijnvolgalgoritme}{9}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Licht herkennen}{9}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.5}Andere wagen herkennen en versnellen/vertragen}{9}{subsection.1.3.5}%
+\contentsline {subsection}{\numberline {1.3.6}Draaien op kruispunt}{9}{subsection.1.3.6}%
+\contentsline {subsection}{\numberline {1.3.7}Manual override}{10}{subsection.1.3.7}%
+\contentsline {subsection}{\numberline {1.3.8}Implementatie traject}{10}{subsection.1.3.8}%
+\contentsline {subsection}{\numberline {1.3.9}Concrete implementatie}{10}{subsection.1.3.9}%
+\contentsline {chapter}{\numberline {2}Resultaten}{12}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Budget}{12}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Discussie}{13}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Bijlagen}{14}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Planning}{14}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Overzicht ontwerpspecificaties}{14}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Samenvatting klantenvereisten}{17}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Teamverantwoordelijkheden}{17}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Takenstructuur}{19}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Gantt-grafiek \& Teamkalender}{21}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Visualisatie ontwerp}{29}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Elektrisch circuit}{29}{section.4.8}%
+\contentsline {section}{\numberline {4.9}Flowcharts}{29}{section.4.9}%
+\contentsline {section}{\numberline {4.10}Financieel Rapport}{31}{section.4.10}%
