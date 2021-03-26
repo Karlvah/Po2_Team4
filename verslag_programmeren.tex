@@ -1,0 +1,44 @@
+\documentclass[12pt]{article}
+
+% style
+\setlength{\parindent}{0pt}
+\usepackage[left=2.5cm,top=2cm,right=2.5cm,bottom=2cm,a4paper]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{Team 4: TeamR2D2}
+\rhead{Verantwoordelijkheidsstructuur}
+\renewcommand{\headrulewidth}{0.4pt}
+\usepackage{lscape}
+
+\begin{document}
+	
+
+
+\section*{implementatie software}
+Als microcontroler hebben wij voor de myrio gekozen, omdat het ons eenderzijds handeiger leek om direct alles in labview te programmeren dan enkel de interface in labview te maken. Anderzijds ook omdat we de analoge afstandssensor liever wilden gebruiken dan de digitale(ze hebben een andere range)
+
+\subsection{Lijnvolgalgoritme}
+Op de baan die de robot moet volgen zijn allemaal donkere lijnen getrokken.Bij het volgen van deze lijnen maken we gebruik van (sensor...).
+De aansluiting hiervan op de microcontroler kan je zien in(ref1). De sensor heeft 8 licht gevoelige sensoren. We hebben ons lijnvolgalgoritme gebaseerd op het feit dat men aan de ene kant van de sensor meer zwart ziet dan aan de andere wanneer hij niet evenwijdeig met de lijn rijdt. Wanneer men meer zwart ziet aan de linkerkant van de sensor, moet men naar links draaien (dit door de rechtermotor trager te doen draaien). Wanneer men echter meer zwart ziet aan de rechterkant van de sensor, moet men naar rechts draaien (dit door de linkermotor trager te doen draaien ). Als men aan beide zijden even veel zwart detecteerd moet men rechtdoor blijven rijden. Dit alles kan men ook zien in (ref2). Dit algortime komt tot een einde wanneer beide kanten even veel zwart ervaren en deze waardes tesamen veel groter zijn. Dit betekent dat er een stopstreep is, en men dus moet stoppen. 
+
+\subsection{Licht herkennen}
+Dit algoritme treedt pas in werking als men een stopstreep detecteert. Dit is zo wanneer de 8 sensoren van de reflectiesensor zwart detecteren(zoals in vorige paragraaf beschreven). Met behulp van een while-loop gaan we kijken of het licht groen is dat de kleurensensor detecteert. We gaan gebruik maken van een interval dat 1000 milli seconden duurt zodat we de myrio niet overbelasten. Zolang het rood is blijft de loop lopen, vanaf de kleurensensor groen ziet, stopt de while-loop en kan het traject verdergezet worden.
+
+\subsection{Andere wagen herkennen en versnellen/vertragen}
+
+Met de afstandssensor kunnen we de afstand tot de voorliggende wagen detecteren. Wanneer de afstand te klein is gaat de wagen vertragen. Om dit te implementeren  maken we gebruik van een while-loop. Als echter bij het vertragen de kritieke minimale snelheid overschreden wordt(dus nog minder dan de minimale), dan stopt onze wagen(dit is wanneer een andere wagen voor ons stilstaan). Versnellen gebeurt ook met een while loop, wanneer de snelheid boven een bepaalde waarde is, neemt hij de 'ideale snelheid' aan.
+
+\subsection{Draaien op kruispunt}
+We maken een ondersheid tussen 3 gevallen; linksaf, rechtsaf en rechtdoor.
+Bij linksaf moeten we eerst 375mm rechtdoor rijden, dan 90graden naar links draaien om de as van de wagen en tenslotten meer dan 375 mm rechtdoorrijden om dan weer de lijn te volgen.
+
+Bij rechtsaf moet men eerst 125mm rechtdoorrijden, dan 90graden naar rechts draaien om de as van de wagen en tenslotte meer dan 125mm rechtdoorrijden om dan weer de lijn te volgen. Bij rechtdoor moet men meer dan 500mm rechtdoorrijden om dan vervolgens de lijn te volgen. bij deze drie gevallen moet men tijdens het uitvoeren ervan rekening houden of er al dan niet een voorligger zich binnen de zeer kritische gevarenzone bevindt (dit wil zeggen dat de ander wagen voor de een of andere reden stilstaan op het kruispunt)
+
+
+\subsection{Implementatie traject}
+
+Vanaf het moment dat we ons traject kennen, kunnen we aan de hand van de vorige algoritmes ons parkour samenstellen.
+
+
+
+\end{document}
