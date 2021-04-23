@@ -1,0 +1,28 @@
+\babel@toc {dutch}{}
+\contentsline {section}{\numberline {0.1}Inleiding}{3}{section.0.1}%
+\contentsline {section}{\numberline {0.2}Klantenvereisten}{4}{section.0.2}%
+\contentsline {section}{\numberline {0.3}Ontwerpspecificaties}{5}{section.0.3}%
+\contentsline {section}{\numberline {0.4}Teamverantwoordelijkheden}{6}{section.0.4}%
+\contentsline {section}{\numberline {0.5}Ontwerp}{7}{section.0.5}%
+\contentsline {subsection}{\numberline {0.5.1}Onderdelen}{7}{subsection.0.5.1}%
+\contentsline {subsection}{\numberline {0.5.2}Assemblage}{7}{subsection.0.5.2}%
+\contentsline {section}{\numberline {0.6}Software}{8}{section.0.6}%
+\contentsline {subsection}{\numberline {0.6.1}flowchart moet nog aangevuld worden}{8}{subsection.0.6.1}%
+\contentsline {subsection}{\numberline {0.6.2}Lijnvolgalgoritme}{8}{subsection.0.6.2}%
+\contentsline {subsection}{\numberline {0.6.3}Licht herkennen}{8}{subsection.0.6.3}%
+\contentsline {subsection}{\numberline {0.6.4}Andere wagen herkennen en versnellen/vertragen}{9}{subsection.0.6.4}%
+\contentsline {subsection}{\numberline {0.6.5}Draaien op kruispunt}{9}{subsection.0.6.5}%
+\contentsline {subsection}{\numberline {0.6.6}Handmatige Besturing}{10}{subsection.0.6.6}%
+\contentsline {subsection}{\numberline {0.6.7}Implementatie traject}{10}{subsection.0.6.7}%
+\contentsline {subsection}{\numberline {0.6.8}Concrete implementatie}{10}{subsection.0.6.8}%
+\contentsline {subsection}{\numberline {0.6.9}Implementatie traject}{10}{subsection.0.6.9}%
+\contentsline {chapter}{\numberline {1}Bijlagen}{11}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Planning}{11}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Overzicht ontwerpspecificaties}{11}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Teamverantwoordelijkheden}{11}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Takenstructuur}{15}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Gantt-grafiek \& Teamkalender}{17}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Visualisatie ontwerp}{25}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Elektrisch circuit}{25}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Flowcharts}{25}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Financieel Rapport}{27}{section.1.9}%
