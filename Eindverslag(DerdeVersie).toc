@@ -1,0 +1,29 @@
+\babel@toc {dutch}{}
+\contentsline {section}{\numberline {1}Inleiding}{3}{section.0.1}%
+\contentsline {section}{\numberline {2}Klantenvereisten}{4}{section.0.2}%
+\contentsline {section}{\numberline {3}Ontwerpspecificaties}{5}{section.0.3}%
+\contentsline {section}{\numberline {4}Teamverantwoordelijkheden}{6}{section.0.4}%
+\contentsline {section}{\numberline {5}Ontwerp}{7}{section.0.5}%
+\contentsline {subsection}{\numberline {5.1}Onderdelen}{7}{subsection.0.5.1}%
+\contentsline {subsection}{\numberline {5.2}Assemblage}{9}{subsection.0.5.2}%
+\contentsline {section}{\numberline {6}Software}{10}{section.0.6}%
+\contentsline {subsection}{\numberline {6.1}flowchart moet nog aangevuld worden}{10}{subsection.0.6.1}%
+\contentsline {subsection}{\numberline {6.2}Lijnvolgalgoritme}{10}{subsection.0.6.2}%
+\contentsline {subsection}{\numberline {6.3}Licht herkennen}{11}{subsection.0.6.3}%
+\contentsline {subsection}{\numberline {6.4}Andere wagen herkennen en versnellen/vertragen}{11}{subsection.0.6.4}%
+\contentsline {subsection}{\numberline {6.5}Draaien op kruispunt}{11}{subsection.0.6.5}%
+\contentsline {subsection}{\numberline {6.6}Handmatige Besturing}{11}{subsection.0.6.6}%
+\contentsline {subsection}{\numberline {6.7}Implementatie traject}{12}{subsection.0.6.7}%
+\contentsline {subsection}{\numberline {6.8}Concrete implementatie}{12}{subsection.0.6.8}%
+\contentsline {subsection}{\numberline {6.9}Implementatie traject}{12}{subsection.0.6.9}%
+\contentsline {section}{\numberline {7}Resultaten}{13}{section.0.7}%
+\contentsline {subsection}{\numberline {7.1}Financieel raport}{13}{subsection.0.7.1}%
+\contentsline {subsection}{\numberline {7.2}Ontwerp}{13}{subsection.0.7.2}%
+\contentsline {subsection}{\numberline {7.3}Software}{13}{subsection.0.7.3}%
+\contentsline {section}{\numberline {8}Bijlagen}{15}{section.0.8}%
+\contentsline {subsection}{\numberline {8.1}Takenstructuur}{17}{subsection.0.8.1}%
+\contentsline {section}{\numberline {9}Gantt-grafiek \& Teamkalender}{19}{section.0.9}%
+\contentsline {subsection}{\numberline {9.1}Visualisatie ontwerp}{27}{subsection.0.9.1}%
+\contentsline {subsection}{\numberline {9.2}Elektrisch circuit}{27}{subsection.0.9.2}%
+\contentsline {subsection}{\numberline {9.3}Flowcharts}{27}{subsection.0.9.3}%
+\contentsline {subsection}{\numberline {9.4}Financieel Rapport}{29}{subsection.0.9.4}%
