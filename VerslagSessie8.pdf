@@ -1,0 +1,33 @@
+\documentclass[12pt]{article}
+
+\setlength{\parindent}{0pt}
+\usepackage[left=2.5cm,top=2cm,right=2.5cm,bottom=2cm,a4paper]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{Team 4: TeamR2D2 - verslag}
+\rhead{23/04}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+	\section{Verslag begin sessie}
+	
+	
+	\subsection{Planning}
+	
+	Yaron,Kobe en Matthijs zullen het verslag verbeteren met behulp van de feedback.
+	Karl en Thomas zullen werken aan de robotwagen.
+	
+	
+	\section{Verslag einde sessie}
+	\subsection{Bespreking verslag vorige vergadering}
+	\subsection{Evaluatie activiteiten}
+	
+	Yaron,Kobe en Matthijs al een groot deel verbeterd met behulp van de feedback.
+	Karl en thomas hebben de kleurensensor getest en geprogrammeerd. Ze hebben de dualdriver vervangen door een motorshield,
+	een paar dingen op de robot gemonteerd en al een paar poorten gesoldeerd.
+	
+	
+	
+	
+	\subsection{Planning}
+	Zaterdagavond 24/03 komen we samen en bespreken we wat er volgende week gedaan moet worden.
